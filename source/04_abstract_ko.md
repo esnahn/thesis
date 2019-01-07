@@ -15,7 +15,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam et turpis gravida, 
 
 **주요어: 노년, 가치, 황금시대, 귀**
 
-**학번: 2000-00000**
+**학번: 2011-30177**
 
 \newpage
 <!-- 페이지가 바뀌어야 다음 파일 페이지 번호 양식에 영향받지 않음 -->

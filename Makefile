@@ -1,7 +1,7 @@
 # 학번
-STDNO=z0000000
+STDNO=2011-30177
 # 이름
-FULLNAME=Last_First
+FULLNAME=Ahn_Euisoon
 
 PY=python
 PANDOC=pandoc
