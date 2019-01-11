@@ -64,5 +64,3 @@ tex2pdf*/
 
 # Do not track the output anymore
 output/
-# Except the example
-!output/z0000000*
