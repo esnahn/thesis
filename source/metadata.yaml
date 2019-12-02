@@ -1,11 +1,11 @@
 ---
 kotitle: | # |가 줄바꿈 보존
-  딥 러닝 기계학습을 적용한
+  심층 신경망 학습을 적용한
   
   한국 아파트 단위세대 평면계획 분석
 kosubtitle: 
 entitle: # 아무 것도 없으면 줄바꿈 공백으로 대체
-  Deep Learning on the Floorplans of Apartment Units in Korea
+  Deep Learning on Korean Apartments
 
 koauthor: 안의순 # 저자명, 한글로
 koauthorrun: 안 의 순 # 저자명, 한글로 한 자씩 띄어써서
