@@ -5,4 +5,4 @@
 
 \normalsize
 
-\graphicspath{{source/figures}}
+\graphicspath{{source/figures}{../figures}}
