@@ -6,4 +6,7 @@
     "PandocCiter.ShowLog": true,
     "PandocCiter.DefaultBib": "source/references.bib",
     "PandocCiter.ForgetUnusedBib": false,
+    "markdownlint.config": {
+        "html": false
+    },
 }
