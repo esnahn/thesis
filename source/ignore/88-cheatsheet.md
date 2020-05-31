@@ -27,7 +27,6 @@ Caption of figure
 
 [@fig:testB]처럼 인용
 
-
 a   b   c
 --- --- ---
 1   2   3
@@ -49,6 +48,6 @@ Interpret straight quotes as curly quotes, --- as em-dashes, -- as en-dashes, an
 
 A backslash-escaped space(\ ) is parsed as a nonbreaking space. In TeX output, it will appear as ~. In HTML and XML output, it will appear as a literal unicode nonbreaking space character (note that it will thus actually look “invisible” in the generated HTML source; you can still use the --ascii command-line option to make it appear as an explicit entity).
 
-A backslash-escaped newline (i.e. a backslash occurring at the end of a line) is parsed as a hard line break. It will appear in TeX output as \\ and in HTML as <br />. 
+A backslash-escaped newline (i.e. a backslash occurring at the end of a line) is parsed as a hard line break. It will appear in TeX output as \\ and in HTML as <br />.
 
 \newpage
