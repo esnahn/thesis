@@ -9,4 +9,7 @@
     "markdownlint.config": {
         "html": false
     },
+    "editor.codeActionsOnSave": {
+        "source.fixAll.markdownlint": true
+    },
 }
