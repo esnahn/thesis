@@ -128,6 +128,12 @@ year   = {2016}
   url    = {https://www.kdnuggets.com/2016/03/data-science-puzzle-explained.html},
   year   = {2016}
 }
+@misc{scikit-learndevelopers2019,
+  author = {{scikit-learn developers}},
+  title  = {{Classifier comparison}},
+  url    = {https://scikit-learn.org/stable/auto_examples/classification/plot_classifier_comparison.html},
+  year   = {2019}
+}
 
 @book{Goodfellow-et-al-2016,
   title     = {Deep Learning},
@@ -136,13 +142,56 @@ year   = {2016}
   note      = {\url{http://www.deeplearningbook.org}},
   year      = {2016}
 }
+
+@article{Turner2001,
+  abstract  = {An isovist, or viewshed, is the area in a spatial environment directly visible from a location within the space. Here we show how a set of isovists can be used to generate a graph of mutual visibility between locations. We demonstrate that this graph can also be constructed without reference to isovists and that we are in fact invoking the more general concept of a visibility graph. Using the visibility graph, we can extend both isovist and current graph-based analyses of architectural space to form a new methodology for the investigation of configurational relationships. The measurement of local and global characteristics of the graph, for each vertex or for the system as a whole, is of interest from an architectural perspective, allowing us to describe a configuration with reference to accessibility and visibility, to compare from location to location within a system, and to compare systems with different geometries. Finally we show that visibility graph properties may be closely related to manifestations of spatial perception, such as way-finding, movement, and space use.},
+  author    = {Turner, Alasdair and Doxa, Maria and O'Sullivan, David and Penn, Alan},
+  doi       = {10.1068/b2684},
+  issn      = {0265-8135},
+  journal   = {Environment and Planning B: Planning and Design},
+  month     = {feb},
+  number    = {1},
+  pages     = {103--121},
+  publisher = {SAGE Publications Ltd STM},
+  title     = {{From Isovists to Visibility Graphs: A Methodology for the Analysis of Architectural Space}},
+  url       = {https://doi.org/10.1068/b2684},
+  volume    = {28},
+  year      = {2001}
+}
+
+@article{Elgammal2018,
+  abstract      = {How does the machine classify styles in art? And how does it relate to art historians' methods for analyzing style? Several studies have shown the ability of the machine to learn and predict style categories, such as Renaissance, Baroque, Impressionism, etc., from images of paintings. This implies that the machine can learn an internal representation encoding discriminative features through its visual analysis. However, such a representation is not necessarily interpretable. We conducted a comprehensive study of several of the state-of-the-art convolutional neural networks applied to the task of style classification on 77K images of paintings, and analyzed the learned representation through correlation analysis with concepts derived from art history. Surprisingly, the networks could place the works of art in a smooth temporal arrangement mainly based on learning style labels, without any a priori knowledge of time of creation, the historical time and context of styles, or relations between styles. The learned representations showed that there are few underlying factors that explain the visual variations of style in art. Some of these factors were found to correlate with style patterns suggested by Heinrich W$\backslash$"olfflin (1846-1945). The learned representations also consistently highlighted certain artists as the extreme distinctive representative of their styles, which quantitatively confirms art historian observations.},
+  annote        = {AlexNet [10], VGGNet [11], and ResNet [12]
+      20개 양식으로 분류
+      분류로 학습한 learned representation 을 시각화 (512 nodes - PCA)},
+  archiveprefix = {arXiv},
+  arxivid       = {1801.07729},
+  author        = {Elgammal, Ahmed and Mazzone, Marian and Liu, Bingchen and Kim, Diana and Elhoseiny, Mohamed},
+  eprint        = {1801.07729},
+  month         = {jan},
+  title         = {{The Shape of Art History in the Eyes of the Machine}},
+  url           = {http://arxiv.org/abs/1801.07729},
+  year          = {2018}
+}
+
+@misc{eykholt2017robust,
+  abstract      = {Recent studies show that the state-of-the-art deep neural networks (DNNs) are vulnerable to adversarial examples, resulting from small-magnitude perturbations added to the input. Given that that emerging physical systems are using DNNs in safety-critical situations, adversarial examples could mislead these systems and cause dangerous situations.Therefore, understanding adversarial examples in the physical world is an important step towards developing resilient learning algorithms. We propose a general attack algorithm,Robust Physical Perturbations (RP2), to generate robust visual adversarial perturbations under different physical conditions. Using the real-world case of road sign classification, we show that adversarial examples generated using RP2 achieve high targeted misclassification rates against standard-architecture road sign classifiers in the physical world under various environmental conditions, including viewpoints. Due to the current lack of a standardized testing method, we propose a two-stage evaluation methodology for robust physical adversarial examples consisting of lab and field tests. Using this methodology, we evaluate the efficacy of physical adversarial manipulations on real objects. Witha perturbation in the form of only black and white stickers,we attack a real stop sign, causing targeted misclassification in 100{\%} of the images obtained in lab settings, and in 84.8{\%}of the captured video frames obtained on a moving vehicle(field test) for the target classifier.},
+  archiveprefix = {arXiv},
+  arxivid       = {1707.08945},
+  author        = {Eykholt, Kevin and Evtimov, Ivan and Fernandes, Earlence and Li, Bo and Rahmati, Amir and Xiao, Chaowei and Prakash, Atul and Kohno, Tadayoshi and Song, Dawn},
+  eprint        = {1707.08945},
+  month         = {jul},
+  title         = {{Robust Physical-World Attacks on Deep Learning Models}},
+  url           = {http://arxiv.org/abs/1707.08945},
+  year          = {2017}
+}
+
 @article{Zhou2015,
   abstract      = {In this work, we revisit the global average pooling layer proposed in [13], and shed light on how it explicitly enables the convolutional neural network to have remarkable localization ability despite being trained on image-level labels. While this technique was previously proposed as a means for regularizing training, we find that it actually builds a generic localizable deep representation that can be applied to a variety of tasks. Despite the apparent simplicity of global average pooling, we are able to achieve 37.1{\%} top-5 error for object localization on ILSVRC 2014, which is remarkably close to the 34.2{\%} top-5 error achieved by a fully supervised CNN approach. We demonstrate that our network is able to localize the discriminative image regions on a variety of tasks despite not being trained for them},
   archiveprefix = {arXiv},
   arxivid       = {1512.04150},
   author        = {Zhou, Bolei and Khosla, Aditya and Lapedriza, Agata and Oliva, Aude and Torralba, Antonio},
   eprint        = {1512.04150},
-  file          = {:C$\backslash$:/Users/Esahn/Documents/Mendeley Desktop/Zhou et al. - 2015 - Learning Deep Features for Discriminative Localization.pdf:pdf},
   month         = {dec},
   title         = {{Learning Deep Features for Discriminative Localization}},
   url           = {http://arxiv.org/abs/1512.04150},
@@ -171,12 +220,20 @@ year   = {2016}
   year         = {2014},
   organization = {Springer}
 }
+
 @mastersthesis{Chaillou2019,
   author = {Chaillou, Stanislas},
   school = {Harvard University},
   title  = {{AI + Architecture}},
   url    = {https://www.academia.edu/39599650/},
   year   = {2019}
+}
+
+@article{pix2pix2016,
+  title={Image-to-Image Translation with Conditional Adversarial Networks},
+  author={Isola, Phillip and Zhu, Jun-Yan and Zhou, Tinghui and Efros, Alexei A},
+  journal={arxiv},
+  year={2016}
 }
 
 %%% 3장 
