@@ -7,6 +7,7 @@
     "PandocCiter.DefaultBib": "source/references.bib",
     "PandocCiter.ForgetUnusedBib": false,
     "markdownlint.config": {
+        "MD041": false,
         "html": false
     },
     "editor.codeActionsOnSave": {
