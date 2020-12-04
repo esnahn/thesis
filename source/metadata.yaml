@@ -1,9 +1,13 @@
 ---
 kotitle: | # |가 줄바꿈 보존
-  딥 러닝을 활용한 한국 아파트 단위평면 분석 방법론 개발
+  딥 러닝을 활용한 한국 아파트 단위평면
+
+  분석 방법론 개발
 kosubtitle: 
-entitle: # 아무 것도 없으면 줄바꿈 공백으로 대체
-  Deep Learning on Korean Apartments
+entitle: | # 아무 것도 없으면 줄바꿈 공백으로 대체
+  A Deep Learning based Spatial Analysis Method
+  
+  for Korean Apartments
 
 koauthor: 안의순 # 저자명, 한글로
 koauthorrun: 안 의 순 # 저자명, 한글로 한 자씩 띄어써서
