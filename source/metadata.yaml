@@ -13,9 +13,9 @@ kodepartment: 건축학과
 
 koadvisorrun: 최 재 필 # 지도교수명, 한글로 한 자씩 띄어써서
 
-graddate: 2020년 8월 # 발간일, 학위 수여일 월까지
-submissiondate: 2020년 7월 # 논문 제출일, 제출기한 월까지
-approvaldate: 2020년 7월 # 논문 인준일, 종심일 월까지
+graddate: 2021년 2월 # 발간일, 학위 수여일 월까지
+submissiondate: 2020년 12월 # 논문 제출일, 제출기한 월까지
+approvaldate: 2020년 12월 # 논문 인준일, 종심일 월까지
 
 ### 인준지에 자필로 이름을 적으시는 경우 삭제
 # committee: # 논문심사위원 명단. 지도교수는 가장 아래

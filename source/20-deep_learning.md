@@ -460,7 +460,7 @@ CNN 모형 내부의 합성곱 신경망이
 
 ![역합성곱 신경망으로 시각화한 딥 러닝의 이미지 인식 [@zeiler2014visualizing]](deconv.png){#fig:deconv}
 
-CAM (class activation mapping)은
+<!-- CAM (class activation mapping)은
 CNN 모형이
 입력 데이터를 특정한 범주로 분류하는 이유가
 입력값 중 어느 영역에 근거한 것인지를
@@ -479,7 +479,7 @@ CAM 방법론으로 시각화한 것이다.
 제대로 인식하고 있음을 확인할 수 있다.
 [@Zhou2015]
 
-![CAM을 통한 분류 근거 영역 시각화 [@Zhou2015, p. 1]](cam_zhou.png){#fig:cam}
+![CAM을 통한 분류 근거 영역 시각화 [@Zhou2015, p. 1]](cam_zhou.png){#fig:cam} -->
 
 위에서 살펴본 다양한 방법론을 활용하여
 딥 러닝 모형의 내부 구조 파악이 어려운 단점을 극복하고,
