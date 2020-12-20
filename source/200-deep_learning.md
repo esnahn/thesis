@@ -104,7 +104,7 @@
 가시성 그래프 분석에서도 다르지 않다.
 ([@fig:vg])
 
-<div id="fig:">
+<div id="fig:a">
 
 ![가시성 그래프 [@Turner2001]](syntax_vg.png){height=40% #fig:vg} \qquad
 ![딥 러닝의 계층간 연결 [@Goodfellow-et-al-2016]](conv.png){height=25% #fig:conv} \qquad
@@ -214,7 +214,7 @@ CNN은
 앞으로도 다양한 분야에서 딥 러닝이 인간만이 할 수 있었던 일을
 딥 러닝을 통해 처리하게 될 것이다.
 
-<div id="fig:">
+<div id="fig:b">
 
 ![시간에 따라 증가하는 데이터셋 크기 (빨간 선은 [@sec:floorplan]의 한국 아파트 데이터셋의 크기)](increasing_dataset.png){#fig:increasing_dataset} \qquad
 ![시간에 따라 증가하는 신경망 크기](increasing_neurons.png){#fig:increasing_neurons}
@@ -365,7 +365,7 @@ ArchiGAN이
 
 <div id="fig:adversarial">
 
-![적대적 사례 생성 과정](adversarial_pipeline.png){#fig: width=100%} \qquad
+![적대적 사례 생성 과정](adversarial_pipeline.png){width=100%} \qquad
 ![속도제한 표지판으로 오인식되도록 변형한 정지 표지판](adversarial_sticker.jpg){#fig:adversarial_sticker height=40%} \qquad
 
 교통 표지판 인식 딥 러닝 모형에 대한 적대적 공격 [@eykholt2017robust]

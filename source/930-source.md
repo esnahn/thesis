@@ -4,7 +4,7 @@
 
 \scriptsize
 
-10_naver_floorplan_analysis.py
+### 10_naver_floorplan_analysis.py {.unnumbered}
 
 ```python
 #!/usr/bin/env python
@@ -955,7 +955,7 @@ for i in range(6):
     plt.imshow(unit_comb[:,:,i])
 ```
 
-11_floorplan_normalization.py
+### 11_floorplan_normalization.py {.unnumbered}
 
 ```python
 #!/usr/bin/env python
@@ -1266,7 +1266,7 @@ def rescale_fp(unit_comb, area, target_ppm=5, trim=True):
 rescale_fp(unit_comb, 85)
 ```
 
-12_floorplan_image.py
+### 12_floorplan_image.py {.unnumbered}
 
 ```python
 #!/usr/bin/env python
@@ -1429,7 +1429,7 @@ def mono_fp(unit_comb):
     return mono
 ```
 
-15_process_floorplan_images.py
+### 15_process_floorplan_images.py {.unnumbered}
 
 ```python
 #!/usr/bin/env python
@@ -1636,7 +1636,7 @@ with Pool(7) as p:
 #     ls /data/fp_img_processed/ | wc -l
 ```
 
-15_repeat_postprocess.py
+### 15_repeat_postprocess.py {.unnumbered}
 
 ```python
 #!/usr/bin/env python
@@ -1903,7 +1903,7 @@ with Pool(7) as p:
 get_ipython().system('ls /data/fp_img_processed/8516_87* -al')
 ```
 
-16_processed_list.py
+### 16_processed_list.py {.unnumbered}
 
 ```python
 #!/usr/bin/env python
@@ -1992,7 +1992,7 @@ df_old = pd.read_csv("processed_0812.csv")
 df_old[~df_old.index.isin(df.index)]
 ```
 
-17_image_size.py
+### 17_image_size.py {.unnumbered}
 
 ```python
 #!/usr/bin/env python
@@ -2092,7 +2092,7 @@ plt.tight_layout()
 fig.savefig("fp_size_kde.pdf", bbox_inches="tight", pad_inches=0)
 ```
 
-20_floorplan_dataset_tfrecord.py
+### 20_floorplan_dataset_tfrecord.py {.unnumbered}
 
 ```python
 #!/usr/bin/env python
@@ -2355,7 +2355,7 @@ for parsed_record in parsed_dataset.take(3):
     print(repr(parsed_record))
 ```
 
-24_dataset_all_train_test_56.py
+### 24_dataset_all_train_test_56.py {.unnumbered}
 
 ```python
 #!/usr/bin/env python
@@ -2627,7 +2627,7 @@ if errors:
     print(errors)
 ```
 
-41_visualize_floorplan.py
+### 41_visualize_floorplan.py {.unnumbered}
 
 ```python
 #!/usr/bin/env python
@@ -2786,7 +2786,7 @@ ids_flat
 visualize_from_file(ids_flat)
 ```
 
-61_VGG_CAM.py
+### 61_VGG_CAM.py {.unnumbered}
 
 ```python
 #!/usr/bin/env python
@@ -3026,7 +3026,7 @@ path_hist = dir_model + "history.csv"
 df_hist.to_csv(path_hist, mode="a", header=not os.path.exists(path_hist))
 ```
 
-62_VGG_CAM_prediction.py
+### 62_VGG_CAM_prediction.py {.unnumbered}
 
 ```python
 #!/usr/bin/env python
@@ -3151,7 +3151,7 @@ one_off = (
 one_off, f"{one_off/total:.2%}", f"{(correct+one_off)/total:.2%}"
 ```
 
-63_VGG_CAM_activation.py
+### 63_VGG_CAM_activation.py {.unnumbered}
 
 ```python
 #!/usr/bin/env python
@@ -3310,7 +3310,7 @@ df_gap
 df_gap.to_csv("vgg_5y_activation.csv.gz")
 ```
 
-65_biclustering.py
+### 65_biclustering.py {.unnumbered}
 
 ```python
 #!/usr/bin/env python
@@ -3767,7 +3767,7 @@ fig.savefig("biclust_area.png", bbox_inches="tight", pad_inches=0)
 fig.savefig("biclust_area.pdf", bbox_inches="tight", pad_inches=0)
 ```
 
-67_VGG_CAM_visualization.py
+### 67_VGG_CAM_visualization.py {.unnumbered}
 
 ```python
 #!/usr/bin/env python
