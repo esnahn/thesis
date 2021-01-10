@@ -42,7 +42,7 @@ tex:
 	--from=markdown-auto_identifiers \
 	--template="$(STYLEDIR)/template.tex" \
 	--bibliography="$(BIBFILE)" 2>pandoc.log \
-	--csl="$(STYLEDIR)/apa_ko.csl" \
+	--csl="$(STYLEDIR)/apa_ko_full.csl" \
 	--highlight-style pygments \
 	--top-level-division=chapter \
 	-N \
@@ -57,7 +57,7 @@ pdf:
 	--from=markdown-auto_identifiers \
 	--template="$(STYLEDIR)/template.tex" \
 	--bibliography="$(BIBFILE)" 2>pandoc.log \
-	--csl="$(STYLEDIR)/apa_ko.csl" \
+	--csl="$(STYLEDIR)/apa_ko_full.csl" \
 	--highlight-style pygments \
 	--top-level-division=chapter \
 	-N \
@@ -72,7 +72,7 @@ md:
 	pandoc "$(STYLEDIR)/template.yaml" "$(INPUTDIR)/metadata.yaml" "$(INPUTDIR)"/*.md \
 	-o "$(OUTPUTDIR)/$(STDNO)-$(FULLNAME)-Thesis.md" \
 	--bibliography="$(BIBFILE)" 2>pandoc.log \
-	--csl="$(STYLEDIR)/apa_ko.csl" \
+	--csl="$(STYLEDIR)/apa_ko_full.csl" \
 	--highlight-style pygments \
 	--top-level-division=chapter \
 	-N \
@@ -84,7 +84,7 @@ docx:
 	pandoc "$(INPUTDIR)"/*.md \
 	-o "$(OUTPUTDIR)/thesis.docx" \
 	--bibliography="$(BIBFILE)" \
-	--csl="$(STYLEDIR)/apa_ko.csl" \
+	--csl="$(STYLEDIR)/apa_ko_full.csl" \
 	--toc \
 	--filter pandoc-crossref \
 	--lua-filter multiple-bibliographies.lua
@@ -95,7 +95,7 @@ html:
 	--standalone \
 	--template="$(STYLEDIR)/template.html" \
 	--bibliography="$(BIBFILE)" \
-	--csl="$(STYLEDIR)/apa_ko.csl" \
+	--csl="$(STYLEDIR)/apa_ko_full.csl" \
 	--include-in-header="$(STYLEDIR)/style.css" \
 	--toc \
 	--number-sections \
