@@ -775,7 +775,7 @@
               <text macro="publisher"/>
             </group>
           </group>
-          <text macro="access" prefix=" "/>
+          <!-- <text macro="access" prefix=" "/> -->
           <choose>
             <if is-uncertain-date="original-date">
               <group prefix=" [" suffix="]" delimiter=" ">
