@@ -729,7 +729,7 @@
       <key macro="issued-sort" sort="ascending"/>
       <key macro="title"/>
     </sort>
-    <layout suffix="." delimiter="; ">
+    <layout delimiter="; ">
       <choose>
         <if position="near-note">
           <group suffix=".">
@@ -776,21 +776,6 @@
             </group>
           </group>
           <!-- <text macro="access" prefix=" "/> -->
-          <choose>
-            <if is-uncertain-date="original-date">
-              <group prefix=" [" suffix="]" delimiter=" ">
-                <text macro="original-published"/>
-                <text term="circa" form="short"/>
-                <text macro="original-date"/>
-              </group>
-            </if>
-            <else-if variable="original-date">
-              <group prefix=" (" suffix=")" delimiter=" ">
-                <text macro="original-published"/>
-                <text macro="original-date"/>
-              </group>
-            </else-if>
-          </choose>
         </else>
       </choose>
     </layout>
