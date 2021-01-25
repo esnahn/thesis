@@ -13,7 +13,6 @@
 
 ## 캡션 {#sec:캡션}
 
-
 a         b            c
 ------ --------- -------
 123     456         789
@@ -23,7 +22,6 @@ a         b            c
 여러 줄에
 걸쳐
 작성할 수 있음 {#tbl:표-예시}
-
 
 ![그림 캡션은 한 줄로](source/figures/markdown.png){#fig:그림-예시}
 
@@ -36,3 +34,9 @@ a         b            c
 
 그림들 캡션
 </div>
+
+## 참조
+
+`\pageref{key}`
+
+The `\pageref` command produces the page number of the place in the text where the corresponding `\label` command appears. ie. where `\label{key}` appears.
