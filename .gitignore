@@ -68,3 +68,6 @@ output/
 # Word count results
 log_wordcount.txt
 plot_wordcount.png
+
+# build files
+build_timestamp
