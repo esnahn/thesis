@@ -51,6 +51,7 @@ build_timestamp: $(STYLEDIR)/* $(INPUTDIR)/* $(OLDVER)
 	--citeproc \
 	--lua-filter multiple-bibliographies.lua \
 	--lua-filter shortcaptions.lua \
+	--lua-filter include-code-files.lua \
 	&& ls -l "$(OUTPUTFILE)"\
 	|| cat pandoc.log
 
@@ -69,7 +70,8 @@ $(OUTPUTDIR)/thesis.tex: $(STYLEDIR)/* $(INPUTDIR)/* $(OLDVER)
 	--filter pandoc-crossref \
 	--citeproc \
 	--lua-filter multiple-bibliographies.lua \
-	--lua-filter shortcaptions.lua
+	--lua-filter shortcaptions.lua \
+	--lua-filter include-code-files.lua
 
 
 $(STYLEDIR)/template.tex:
