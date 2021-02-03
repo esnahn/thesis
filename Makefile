@@ -13,7 +13,6 @@ TEMPLATEDIR=$(INPUTDIR)/templates
 STYLEDIR=$(BASEDIR)/style
 
 OUTPUTFILE=$(OUTPUTDIR)/$(STDNO)-$(FULLNAME)-Thesis.pdf
-BIBFILE=$(INPUTDIR)/references.bib
 
 ifneq "$(shell pandoc --version | grep ^pandoc | sed 's/^.* //g')" "$(shell cat pandoc_version)"
 	OLDVER = pandoc_version $(STYLEDIR)/template.tex
@@ -41,7 +40,7 @@ build_timestamp: $(STYLEDIR)/* $(INPUTDIR)/* $(OLDVER)
 	-o "$(OUTPUTFILE)" \
 	--from=markdown-auto_identifiers \
 	--template="$(STYLEDIR)/template.tex" \
-	--bibliography="$(BIBFILE)" 2>pandoc.log \
+	2>pandoc.log \
 	--csl="$(STYLEDIR)/apa_ko_full.csl" \
 	--highlight-style pygments \
 	--top-level-division=chapter \
@@ -60,7 +59,7 @@ $(OUTPUTDIR)/thesis.tex: $(STYLEDIR)/* $(INPUTDIR)/* $(OLDVER)
 	-o "$@" \
 	--from=markdown-auto_identifiers \
 	--template="$(STYLEDIR)/template.tex" \
-	--bibliography="$(BIBFILE)" 2>pandoc.log \
+	2>pandoc.log \
 	--csl="$(STYLEDIR)/apa_ko_full.csl" \
 	--highlight-style pygments \
 	--top-level-division=chapter \
