@@ -4,7 +4,7 @@ kotitle: | # |가 줄바꿈 보존
 
   분석 방법론 개발
 kosubtitle: 
-entitle: | # 아무 것도 없으면 줄바꿈 공백으로 대체
+entitle: # 아무 것도 없으면 줄바꿈 공백으로 대체
   Deep Learning Based Spatial Analysis Method
   
   for Korean Apartment Unit Plans
