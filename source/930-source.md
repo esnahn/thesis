@@ -6,10 +6,10 @@
 GitHub 저장소(
     <https://github.com/esnahn/NaverFloorplanAnalysis>
 )를
-통해서도 공개하였다.
+통하여 공개하였다.
 
 \scriptsize
-
+<!-- 
 ### 10_naver_floorplan_analysis.py {.unnumbered}
 
 ``` {.python .numberLines include="source/code/10_naver_floorplan_analysis.py"}
@@ -97,7 +97,7 @@ GitHub 저장소(
 ### 67_VGG_CAM_visualization.py {.unnumbered}
 
 ``` {.python .numberLines include="source/code/67_VGG_CAM_visualization.py"}
-```
+``` -->
 
 \clearpage
 
